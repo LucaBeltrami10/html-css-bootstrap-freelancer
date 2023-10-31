@@ -1,17 +1,16 @@
 /* COLORI */
-
-.my_bc_blue{
-    background-color: lightblue;
-}
-
-.my_bc_pink{
-    background-color: lightpink;
+.my_bc_yellow{
+    background-color: rgb(202, 202, 88);
 }
 
 .my_bc_green{
     background-color: lightseagreen;
 }
 
-.my_bc_yellow{
-    background-color: rgb(202, 202, 88);
+.my_bc_pink{
+    background-color: lightpink;
+}
+
+.my_bc_blue{
+    background-color: lightblue;
 }
