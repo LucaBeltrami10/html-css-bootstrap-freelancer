@@ -35,6 +35,10 @@
 
 /* HEADER */
 
+#navbar nav div *{
+    color: white;
+}
+
 /* MAIN */
 /*? start */
 #start img{
@@ -59,5 +63,4 @@
     height: 50px;
     width: 50px;
     line-height: 50px;
-
 }
