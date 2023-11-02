@@ -25,16 +25,17 @@
     min-height: 150px;
 }
 
-
-.my_color-white{
-    color: white;
-}
-
 .row_divider{
     height: 3px;
     width: 50px;
     margin-top: .5rem;
-    background-color: white;
+}
+
+.my_color-white{
+    color: white;
+}
+.my_color-black{
+    color: black;
 }
 
 /* HEADER */
