@@ -1,21 +1,4 @@
 /* COLORI */
-.my_bc_yellow{
-    background-color: rgb(202, 202, 88);
-}
-
-.my_bc_green{
-    background-color: lightseagreen;
-}
-
-.my_bc_pink{
-    background-color: lightpink;
-}
-
-.my_bc_blue{
-    background-color: lightblue;
-}
-
-
 .my_bc_water-green{
     background-color: #1abc9c;
 }
@@ -32,9 +15,27 @@
     background-color: white;
 }
 
-
 .my_big-container{
     background-color: lightpink;
     /*! qui sotto da emilinare */
     min-height: 150px;
 }
+
+/* HEADER */
+
+/* MAIN */
+/*? start */
+#start img{
+    height: 15rem;
+}
+
+/*? portfolio */
+#portfolio img{
+    width: 100%;
+}
+
+/*? about */
+
+/*? contact-me */ 
+
+/* FOOTER */
