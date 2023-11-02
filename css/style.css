@@ -31,3 +31,10 @@
 .my_bc_white{
     background-color: white;
 }
+
+
+.my_big-container{
+    background-color: lightpink;
+    /*! qui sotto da emilinare */
+    min-height: 150px;
+}
