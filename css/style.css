@@ -15,6 +15,19 @@
     background-color: lightblue;
 }
 
+
+.my_bc_water-green{
+    background-color: #1abc9c;
+}
+
+.my_bc_dark-gray{
+    background-color: #2c3e50;
+}
+
 .my_bc_gray{
-    background-color: gray;
+    background-color: #3a546d;
+}
+
+.my_bc_white{
+    background-color: white;
 }
