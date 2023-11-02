@@ -19,12 +19,6 @@
     background-color: black;
 }
 
-.my_big-container{
-    background-color: lightpink;
-    /*! qui sotto da emilinare */
-    min-height: 150px;
-}
-
 .row_divider{
     height: 3px;
     width: 50px;
