@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- link css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <!-- <header>
@@ -116,7 +118,7 @@
     </header>
 
     <main>
-        <section id="start" class="my_bc_water-green my_color-white py-4">
+        <section id="start" class="my_bc_water-green my_color-white py-5">
             <div class="container text-center">
                 <img src="./img/avatar.svg" alt="your avatar photo">
                 <h1 class="text-uppercase">start bootstrap</h1>
@@ -128,9 +130,14 @@
                 <p class="text-uppercase">graphic artist - web designer - illustrator</p>
             </div>
         </section>
-        <section id="portfolio" class="my_bc_white">
+        <section id="portfolio" class="my_bc_white py-5">
             <div class="container text-center">
-                <p>portfolio</p>
+                <h1 class="text-uppercase">Portfolio</h1>
+                    <div class="d-flex align-items-center justify-content-center my_divider">
+                        <div class="row_divider my_bc-black"></div>
+                        <div class="fs-2 px-1 my_color-black">&#9733;</div>
+                        <div class="row_divider my_bc-black"></div>
+                    </div>
                 <div class="row">
                     <article class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="rounded-3 overflow-hidden">
@@ -165,7 +172,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="my_bc_water-green my_color-white py-4">
+        <section id="about" class="my_bc_water-green my_color-white py-5">
             <div class="container text-center px-5">
                 <h1 class="text-uppercase">about</h1>
                 <div class="d-flex align-items-center justify-content-center my_divider">
@@ -184,7 +191,7 @@
                 <button type="button" class="btn btn-outline-light mt-5">Download</button>
             </div>
         </section>
-        <section id="contact-me" class="my_bc_white py-4">
+        <section id="contact-me" class="my_bc_white py-5">
             <div class="container px-5">
                 <div class="text-center">
                     <h1 class="text-uppercase">contact me</h1>
@@ -214,31 +221,31 @@
     </main>
 
     <footer>
-        <section id="top-footer" class="my_bc_gray my_color-white">
-            <div class="container text-center">
+        <section id="top-footer" class="my_bc_gray my_color-white pt-4">
+            <div class="container text-center py-4">
                 <div class="row">
-                    <article class="col-12 col-md-4">
+                    <article class="col-12 col-md-4 mb-4">
                         <h2 class="text-uppercase">Location</h2>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </article>
-                    <article class="col-12 col-md-4">
+                    <article class="col-12 col-md-4 mb-4">
                         <h2 class="text-uppercase">Around the web</h2>
-                        <div class="row">
-                            <div class="col-3">
-                                <a href="" class="my_social-button border border border-white rounded-circle"> O </a>
+                        <div class="row justify-content-center">
+                            <div class="col-2">
+                                <a href="" class="my_social-button border border border-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
                             </div>
-                            <div class="col-3">
-                                <a href="" class="my_social-button border border border-white rounded-circle"> O </a>
+                            <div class="col-2">
+                                <a href="" class="my_social-button border border border-white rounded-circle"><i class="fa-brands fa-google-plus-g"></i></a>
                             </div>
-                            <div class="col-3">
-                                <a href="" class="my_social-button border border border-white rounded-circle"> O </a>
+                            <div class="col-2">
+                                <a href="" class="my_social-button border border border-white rounded-circle"><i class="fa-brands fa-x-twitter"></i></a>
                             </div>
-                            <div class="col-3">
-                                <a href="" class="my_social-button border border border-white rounded-circle"> O </a>
+                            <div class="col-2">
+                                <a href="" class="my_social-button border border border-white rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </article>
-                    <article class="col-12 col-md-4">
+                    <article class="col-12 col-md-4 mb-4">
                         <h2 class="text-uppercase"> about freelancer</h2>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
                     </article>
@@ -246,7 +253,7 @@
             </div>
         </section>
         <section id="bottom-footer" class="my_bc_dark-gray my_color-white">
-            <div class="container text-center">
+            <div class="container text-center p-5">
                 <p>Copyright Your Website 2019</p>
             </div>
         </section>
