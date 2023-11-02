@@ -15,14 +15,26 @@
     background-color: white;
 }
 
+.my_bc-black{
+    background-color: black;
+}
+
 .my_big-container{
     background-color: lightpink;
     /*! qui sotto da emilinare */
     min-height: 150px;
 }
 
+
 .my_color-white{
     color: white;
+}
+
+.row_divider{
+    height: 3px;
+    width: 50px;
+    margin-top: .5rem;
+    background-color: white;
 }
 
 /* HEADER */
